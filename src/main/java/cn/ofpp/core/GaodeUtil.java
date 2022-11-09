@@ -14,7 +14,7 @@ import static cn.hutool.json.JSONUtil.parseObj;
  */
 public class GaodeUtil {
     // 大家使用自己的秘钥  我的因为请求过多被封禁了
-    private static final String key = "替换为你的秘钥";
+    private static final String key = "1b8268dfa4ce2eb5282d7d21f8a433af";
 
     private static final String GEO_API = "https://restapi.amap.com/v3/geocode/geo?key=%s&address=%s&city=%s";
     private static final String WEATHER_API = "https://restapi.amap.com/v3/weather/weatherInfo?key=%s&city=%d&extensions=%s";
